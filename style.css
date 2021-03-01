@@ -24,7 +24,7 @@ body{
   
   .banner img{
     position: absolute;
-    top 0;
+    top: 0;
     left: 0;
     width:100%;
     height: 100%;
@@ -47,7 +47,7 @@ body{
   
   .banner .content p {
     color: white;
-    fornt-size:20px;
+    font-size:20px;
     letter-spacing:1px;
   }
   
@@ -137,7 +137,7 @@ body{
     font-size:20px;
     pointer-events:none;
     z-index:4;
-    transistion: .3s ease-in-out;
+    transition: .3s ease-in-out;
     -webkit-backdrop-filter: blur(5px) saturate(1.8);
     backdrop-filter: blur(5px) saturate(1.8);
      max-width: 80%;
@@ -220,6 +220,38 @@ body{
     padding: 2px;
     background-color: gray;
     border: 3px solid black;
+  }
+
+  .social{
+    background: #035245;
+    padding: 100px;
+    text-align:center;
+    color: white;
+  }
+  
+  .social h2{
+    padding:10px;
+  }
+  
+  .social .imgBx{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  
+  .social .imgBx i{
+    color: white;
+    font-size: 80px;
+    max-width: 200px;
+      margin: 20px;
+    opacity: .25;
+    cursor:pointer
+  }
+  
+  .social .imgBx i:hover{
+    opacity: 1;
   }
 
   .footer {
