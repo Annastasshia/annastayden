@@ -1,0 +1,25 @@
+{
+  "name": "annastayden",
+  "version": "1.0.0",
+  "description": "social update site",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Annastasshia/annastayden.git"
+  },
+  "author": "Annastasshia Ames",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Annastasshia/annastayden/issues"
+  },
+  "homepage": "https://github.com/Annastasshia/annastayden#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "install": "^0.13.0",
+    "jquery": "^3.5.1",
+    "npm": "^7.6.0"
+  }
+}
