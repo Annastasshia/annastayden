@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Annastasshia/annastayden#readme",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2",
+    "express": "^4.17.1",
     "install": "^0.13.0",
     "jquery": "^3.5.1",
     "nodemon": "^2.0.7",
