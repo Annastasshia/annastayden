@@ -14,4 +14,4 @@ app.get('', (req,res) => {
 });
 
 //  Listen on port 3000
-app.listen(port, () => console.info(`Listenting on port ${port}`));
+app.listen(port, () => console.info(`Listening on port ${port}`));
